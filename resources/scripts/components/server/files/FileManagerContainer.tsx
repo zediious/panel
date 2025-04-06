@@ -102,7 +102,7 @@ export default () => {
                                         </p>
                                     </div>
                                 )}
-                                {sortFiles(files.slice(0, 250)).map((file) => (
+                                {sortFiles(files.slice(0, 1000)).map((file) => (
                                     <FileObjectRow key={file.key} file={file} />
                                 ))}
                                 <MassActionsBar />
